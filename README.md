@@ -253,4 +253,4 @@ Built two crawlers (two “discovery surfaces”), which is a strong production 
 
 ## 🙏 Credits
 
-This project is built on the workflow concept originally demonstrated by **tuplespectra** (video reference: [https://www.youtube.com/watch?v=jCn1UuVf_PY&t=638s](https://www.youtube.com/watch?v=jCn1UuVf_PY&t=638s)). This version elevates it by automating the full pipeline with **Airflow** (from download through S3 landing to Glue ETL execution and verification).
+This project is built on the workflow concept originally demonstrated by **tuplespectra** (video reference: [https://www.youtube.com/watch?v=jCn1UuVf_PY&t=638s](https://www.youtube.com/watch?v=jCn1UuVf_PY&t=638s)). My version elevates it by automating the full pipeline with **Airflow** (from download through S3 landing to Glue ETL execution and verification).
