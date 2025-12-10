@@ -1,0 +1,18 @@
+# Python virtual environments
+**/venv/
+__pycache__/
+*.pyc
+
+# Airflow logs and DB
+**/logs/
+airflow/airflow.db
+airflow/airflow.cfg
+
+# Local data (if any)
+**/data/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

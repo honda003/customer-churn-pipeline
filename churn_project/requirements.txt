@@ -1,0 +1,5 @@
+kagglehub
+openpyxl
+apache-airflow
+apache-airflow-providers-amazon
+boto3
