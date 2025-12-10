@@ -212,7 +212,7 @@ Built two crawlers (two “discovery surfaces”), which is a strong production 
   * producing a clean, analytics-ready table layout.
 * **Destination:** Redshift target table.
 
-![Glue ETL diagram](./imgaes/glue_etl.png)
+![Glue ETL diagram](./images/glue_etl.png)
 ![Glue job details](./images/job_details.png)
 
 ---
