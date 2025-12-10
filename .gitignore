@@ -8,9 +8,6 @@ __pycache__/
 airflow/airflow.db
 airflow/airflow.cfg
 
-# Local data (if any)
-**/data/
-
 # IDE / OS
 .vscode/
 .idea/
