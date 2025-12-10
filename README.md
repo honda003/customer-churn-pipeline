@@ -157,7 +157,7 @@ Built two crawlers (two “discovery surfaces”), which is a strong production 
 
 * Connects to the Redshift database and registers the warehouse objects (schemas/tables) into the Glue Data Catalog.
 
-![Crawlers overview](./crawlers.png)
+![Crawlers overview](./images/crawlers.png)
 
 ---
 
@@ -168,8 +168,8 @@ Built two crawlers (two “discovery surfaces”), which is a strong production 
 * A Redshift cluster (private) hosting a database/schema for the churn dataset.
 * A Redshift table created (and verified) using the Redshift editor.
 
-![Redshift cluster information](./redshift_information.png)
-![Redshift table created](./redshift_table.png)
+![Redshift cluster information](./images/redshift_information.png)
+![Redshift table created](./images/redshift_table.png)
 
 ---
 
@@ -196,7 +196,7 @@ Built two crawlers (two “discovery surfaces”), which is a strong production 
 
 * For private Redshift clusters, “Glue must be network-reachable” is not optional—without matching VPC/subnet/SG, ETL jobs can fail even when credentials and SQL are correct.
 
-![JDBC connection configuration](./jdbc_connection.png)
+![JDBC connection configuration](./images/jdbc_connection.png)
 
 ---
 
@@ -212,8 +212,8 @@ Built two crawlers (two “discovery surfaces”), which is a strong production 
   * producing a clean, analytics-ready table layout.
 * **Destination:** Redshift target table.
 
-![Glue ETL diagram](./glue_etl.png)
-![Glue job details](./job_details.png)
+![Glue ETL diagram](./imgaes/glue_etl.png)
+![Glue job details](./images/job_details.png)
 
 ---
 
@@ -233,7 +233,7 @@ Built two crawlers (two “discovery surfaces”), which is a strong production 
 6. Retrieve the Glue job run id.
 7. Check if the glue job is successful through poking every 60 seconds.
 
-![Airflow DAG (task sequence)](./airflow_dag.png)
+![Airflow DAG (task sequence)](./images/airflow_dag.png)
 
 ### Why the DAG is a strong design choice
 
