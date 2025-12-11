@@ -16,7 +16,7 @@
 
 ## 🏗️ Architecture 🔥
 
-![Architecture](./images/architecture.png)
+![Architecture](./images/architecture2.png)
 
 ---
 
